@@ -6,6 +6,56 @@ body{
   font-family: sans-serif;
 }
 
+h1{
+  font-family: 'Noto Sans JP0',sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h1 br {
+  display: none;
+}
+
+h2 {
+  font-family: 'Noto Sans JP0',sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.subtitle {
+  color: #7fa9aa;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+@media (min-width:768px){
+  h1 {
+    font-size: 48px;
+  }
+  h1 br{
+    display: inline;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+
+}
+
 /* リセット/ノーマライズ/サニタイズ */
 body{
   margin: 0;
